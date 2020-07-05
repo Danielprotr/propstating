@@ -1,14 +1,15 @@
 .Nav__container{
-    background: lightblue;       
+    background: rgb(255, 255, 255);       
 
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* gap: 10px; */
-    margin: 0;
+
+    box-shadow: 5 10 5 5 black;
 }
 
 .Nav__item{
-    background: rgb(84, 148, 1);
+    /* background: rgb(84, 148, 1); */
     /* margin: 10px; */
 }
 
@@ -27,9 +28,15 @@
     background: rgb(124, 124, 124);    
 }
 
-.Logo-container{
-    background: orangered;
-    /* width: 300px; */
+
+.Logo__item{
+    display: inline-block;
+    /* background: blanchedalmond; */
+    margin-left: 10px;
+}
+
+.Logo__texto{
+    font-size: 25px;
 }
 
 
@@ -40,20 +47,21 @@
 }
 
 .Menu__items{
-    display: none;
+    /* display: none; */
+    display: inline-block;
     background: hotpink;
     /* margin: 10px; */    
 }
 
-@media (min-width: 600px){    
+/* @media (min-width: 600px){    
 
     .Menu__items{
         background: rgb(105, 200, 255);
-        /* margin: 10px; */
+        
         display: inline-block;
     }
 
 }
-
+ */
 
 
