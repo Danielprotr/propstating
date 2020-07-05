@@ -15,8 +15,13 @@
 
     /* background: skyblue; */
     
-    overflow: scroll;
-    white-space: nowrap;
+    /* overflow: scroll;
+    white-space: nowrap; */
+
+    display: flex;
+    overflow-x: auto;
+    
+
     height: 110px;
     margin: auto;
 
@@ -27,9 +32,10 @@
 }
 
 .sel__item{
-    display: inline-block;
+    /* display: inline-block; */
     
-    width: 150px;
+    /* width: 150px; */
+    min-width: 150px;
     height: 100px;
     
     background: rgb(96, 180, 0);
