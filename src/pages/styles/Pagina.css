@@ -1,0 +1,35 @@
+
+.Page_layout{
+
+}
+
+.Page__Nav{
+    position: sticky;
+    top: 0;
+}
+
+.Page__layout-center{
+    background: rgb(47, 154, 255);
+    margin: auto;
+    padding: 10px;
+    width: 1000px;
+}
+
+
+.Pagina__Container{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 15px;
+    padding: 20px;
+    background: greenyellow;
+}
+
+.Pagina__item{
+    background: gold;
+}
+
+.Pagina__item:nth-of-type(1){
+    background: gold;
+    /* grid-column: 1 / span 3; */
+}
+

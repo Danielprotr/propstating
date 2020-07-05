@@ -4,10 +4,13 @@ class Info extends React.Component{} */
 
 import React, { Component } from 'react';
 
+import './styles/Info.css';
+
 class Info extends Component {
     render(){
         return (
-            <div>
+            <div className="info_container">                 
+                <h1>Pasemos unos Props y states</h1>
                 <p>{this.props.texto}</p>
                 <hr/>
                 <p>{this.props.description}</p>
