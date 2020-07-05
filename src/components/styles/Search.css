@@ -7,11 +7,16 @@
 }
 
 .Search__bar{    
-    background: greenyellow;
+    /* background: greenyellow; */
     /* width: 600px; */
-    /* margin: 10px; */
+    margin: 10px;
     border: 1px solid rgb(179, 179, 179);
     border-radius: 10px;
+}
+
+.Search__bar p{
+    font-style: italic;
+    padding-left: 10px;
 }
 
 
@@ -22,11 +27,11 @@
         width: 600px;
     }
 
-    .Search__bar{
-        width: 300px;
+    /* .Search__bar{
+        width: 500px;
         background: rgb(86, 149, 245);
-        /* margin: 10px; */
-    }
+        margin: 10px;
+    } */
 
     
 

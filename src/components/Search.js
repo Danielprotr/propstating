@@ -8,7 +8,7 @@ export class Search extends Component {
             <div>
                 <div className="Search-container">
                     <div className="Search__bar">
-                        <p>Search</p>
+                        <p>   Search</p>
                     </div>
                 </div>
             </div>

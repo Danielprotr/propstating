@@ -13,8 +13,7 @@ export class Nav extends Component {
                         <div className="Logo__item Logo__imagen">
                             <img src={Logo} width="40" height="40" alt="Connect logo"/>
                         </div>
-                        <div className="Logo__item Logo__texto">
-                            Logo
+                        <div className="Logo__item Logo__texto">                            
                         </div>
                     </div>                   
                     

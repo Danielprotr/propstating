@@ -2,7 +2,7 @@
     background: rgb(255, 255, 255);       
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 100px 1fr;
     /* gap: 10px; */
 
     box-shadow: 5 10 5 5 black;
@@ -41,7 +41,7 @@
 
 
 .Menu-container{
-    background: rgb(101, 3, 131);
+    /* background: rgb(101, 3, 131); */
     text-align: left;
     /* width: 400px; */
 }
@@ -49,8 +49,8 @@
 .Menu__items{
     /* display: none; */
     display: inline-block;
-    background: hotpink;
-    /* margin: 10px; */    
+    /* background: hotpink; */
+    margin: 10px;    
 }
 
 /* @media (min-width: 600px){    

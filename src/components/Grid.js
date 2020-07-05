@@ -14,8 +14,8 @@ export class Grid extends Component {
                 <div className="Grid__main-container">
                     <div className="Grid__item">
                         <Info 
-                            texto="UNO"
-                            description="Descrip 1"
+                            texto="Information"
+                            description="Card 1"
                             otro="quien dijo yo"
                             />                                 
                     </div>
@@ -23,7 +23,7 @@ export class Grid extends Component {
                     <div className="Grid__item">
                         <Info 
                             texto="DOS"
-                            description="Descrip 2"
+                            description="Card 2"
                             otro="quien dijo yo"
                             />                                 
                     </div>   
@@ -31,7 +31,7 @@ export class Grid extends Component {
                     <div className="Grid__item">
                         <Info 
                             texto="TRES"
-                            description="Descrip 3"
+                            description="Card 3"
                             otro="quien dijo yo"
                             />                                 
                     </div>                      
