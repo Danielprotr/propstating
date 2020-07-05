@@ -8,6 +8,7 @@ export class Nav extends Component {
             <div className="Nav__container">
                 <div className="Nav__item Logo-container">
                     <div>
+                        <img src="" alt="Connect logo"/>
                         <p>Logo</p>
                     </div>
                 </div>                
