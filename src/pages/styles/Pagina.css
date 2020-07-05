@@ -1,3 +1,9 @@
+/* 
+desktop:1200px
+laptop: 1024px 
+tablet: 760px
+phone:  480px
+ */
 
 .Page_layout{
     
@@ -10,10 +16,10 @@
 }
 
 .Page__layout-center{
-    /* background: rgb(47, 154, 255); */
     margin: auto;
-    /* padding: 10px; */
     /* max-width: 350px; */
+    padding: 10px;
+    /* background: blue; */
 }
 
 
@@ -34,13 +40,29 @@
     /* grid-column: 1 / span 3; */
 }
 
-@media all and (min-width: 500px){
+@media (min-width: 500px){
+/* 
+desktop:1200px
+laptop: 1024px 
+tablet: 760px
+phone:  480px
+ */
+
     .Page__layout-center{
         max-width: 600px;
+        /* background: blue;
+        margin: 10px;
+        padding: 10px; */
     }
 
     /* .Pagina__Container{
         grid-template-columns: 1fr 1fr;        
     } */
+}
+
+@media (orientation: landscape){
+    body{
+        /* background: blue; */
+    }
 }
 

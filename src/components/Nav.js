@@ -10,13 +10,7 @@ export class Nav extends Component {
                     <div>
                         <p>Logo</p>
                     </div>
-                </div>
-
-                <div className="Nav__item Search-container">
-                    <div className="Search__bar">
-                        <p>Search</p>
-                    </div>
-                </div>
+                </div>                
                 
                 <div className="Nav__item Menu-container">
                     <div className="Menu__items">

@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 
-import Grid from '../components/Grid';
-import Nav from '../components/Nav';
-import Sidenav from '../components/Sidenav';
+import Grid from '../components/Grid'
+import Nav from '../components/Nav'
+import Sidenav from '../components/Sidenav'
+import Search from '../components/Search'
 
 import './styles/Pagina.css';
 
@@ -15,6 +16,10 @@ export class Pagina extends Component {
                 </div>
 
                 <br/>
+
+                <div className="Page__Search">
+                    <Search />
+                </div>
                 
                 <div className="Page__layout-center">
                     <div className="Pagina__Container"> 
