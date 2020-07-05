@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Danielprotr/propstating.git/static/css/main.835090a4.chunk.css",
+    "main.js": "/Danielprotr/propstating.git/static/js/main.16eddd05.chunk.js",
+    "main.js.map": "/Danielprotr/propstating.git/static/js/main.16eddd05.chunk.js.map",
+    "runtime-main.js": "/Danielprotr/propstating.git/static/js/runtime-main.0ee64490.js",
+    "runtime-main.js.map": "/Danielprotr/propstating.git/static/js/runtime-main.0ee64490.js.map",
+    "static/js/2.d772c3dc.chunk.js": "/Danielprotr/propstating.git/static/js/2.d772c3dc.chunk.js",
+    "static/js/2.d772c3dc.chunk.js.map": "/Danielprotr/propstating.git/static/js/2.d772c3dc.chunk.js.map",
+    "index.html": "/Danielprotr/propstating.git/index.html",
+    "precache-manifest.825c1735757442f0f6f5e5530fff996a.js": "/Danielprotr/propstating.git/precache-manifest.825c1735757442f0f6f5e5530fff996a.js",
+    "service-worker.js": "/Danielprotr/propstating.git/service-worker.js",
+    "static/css/main.835090a4.chunk.css.map": "/Danielprotr/propstating.git/static/css/main.835090a4.chunk.css.map",
+    "static/js/2.d772c3dc.chunk.js.LICENSE.txt": "/Danielprotr/propstating.git/static/js/2.d772c3dc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ee64490.js",
+    "static/js/2.d772c3dc.chunk.js",
+    "static/css/main.835090a4.chunk.css",
+    "static/js/main.16eddd05.chunk.js"
+  ]
+}
