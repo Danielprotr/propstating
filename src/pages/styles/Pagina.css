@@ -7,7 +7,11 @@
 .Page__Nav{
     position: sticky;
     top: 0;
-    /* background: lightblue; */
+    background: #1a7897;
+    /* padding: 10px; */
+    box-shadow: 0px -10px 10px 5px #000000;
+    /* margin: 50px; */
+
 }
 
 .Page__layout-center{
