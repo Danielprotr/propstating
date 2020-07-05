@@ -3,13 +3,13 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    /* gap: 10px; */
     margin: 0;
 }
 
 .Nav__item{
     background: rgb(84, 148, 1);
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .Nav__item:nth-of-type(1) {
@@ -35,7 +35,8 @@
 }
 
 .Logo-container{
-    width: 300px;
+    background: orangered;
+    /* width: 300px; */
 }
 
 .Search-container{
@@ -45,18 +46,18 @@
 .Search__bar{
     /* width: 800px; */
     background: greenyellow;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .Menu-container{
     background: rgb(101, 3, 131);
     text-align: left;
-    width: 400px;
+    /* width: 400px; */
 }
 
 .Menu__items{
     background: hotpink;
-    margin: 10px;
+    /* margin: 10px; */
     display: inline-block;
 }
 
