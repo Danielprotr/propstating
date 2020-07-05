@@ -1,18 +1,19 @@
 
 .Page_layout{
-
+    
 }
 
 .Page__Nav{
     position: sticky;
     top: 0;
+    /* background: lightblue; */
 }
 
 .Page__layout-center{
     background: rgb(47, 154, 255);
     margin: auto;
     padding: 10px;
-    width: 1000px;
+    /* width: 1000px; */
 }
 
 
