@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Danielprotr/propstating.git/static/css/main.835090a4.chunk.css",
-    "main.js": "/Danielprotr/propstating.git/static/js/main.16eddd05.chunk.js",
-    "main.js.map": "/Danielprotr/propstating.git/static/js/main.16eddd05.chunk.js.map",
-    "runtime-main.js": "/Danielprotr/propstating.git/static/js/runtime-main.0ee64490.js",
-    "runtime-main.js.map": "/Danielprotr/propstating.git/static/js/runtime-main.0ee64490.js.map",
-    "static/js/2.d772c3dc.chunk.js": "/Danielprotr/propstating.git/static/js/2.d772c3dc.chunk.js",
-    "static/js/2.d772c3dc.chunk.js.map": "/Danielprotr/propstating.git/static/js/2.d772c3dc.chunk.js.map",
-    "index.html": "/Danielprotr/propstating.git/index.html",
-    "precache-manifest.825c1735757442f0f6f5e5530fff996a.js": "/Danielprotr/propstating.git/precache-manifest.825c1735757442f0f6f5e5530fff996a.js",
-    "service-worker.js": "/Danielprotr/propstating.git/service-worker.js",
-    "static/css/main.835090a4.chunk.css.map": "/Danielprotr/propstating.git/static/css/main.835090a4.chunk.css.map",
-    "static/js/2.d772c3dc.chunk.js.LICENSE.txt": "/Danielprotr/propstating.git/static/js/2.d772c3dc.chunk.js.LICENSE.txt"
+    "main.css": "/propstating/static/css/main.835090a4.chunk.css",
+    "main.js": "/propstating/static/js/main.16eddd05.chunk.js",
+    "main.js.map": "/propstating/static/js/main.16eddd05.chunk.js.map",
+    "runtime-main.js": "/propstating/static/js/runtime-main.f1bad332.js",
+    "runtime-main.js.map": "/propstating/static/js/runtime-main.f1bad332.js.map",
+    "static/js/2.d772c3dc.chunk.js": "/propstating/static/js/2.d772c3dc.chunk.js",
+    "static/js/2.d772c3dc.chunk.js.map": "/propstating/static/js/2.d772c3dc.chunk.js.map",
+    "index.html": "/propstating/index.html",
+    "precache-manifest.62f1b9f5bbaa3cc5c5518edc7a924d94.js": "/propstating/precache-manifest.62f1b9f5bbaa3cc5c5518edc7a924d94.js",
+    "service-worker.js": "/propstating/service-worker.js",
+    "static/css/main.835090a4.chunk.css.map": "/propstating/static/css/main.835090a4.chunk.css.map",
+    "static/js/2.d772c3dc.chunk.js.LICENSE.txt": "/propstating/static/js/2.d772c3dc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ee64490.js",
+    "static/js/runtime-main.f1bad332.js",
     "static/js/2.d772c3dc.chunk.js",
     "static/css/main.835090a4.chunk.css",
     "static/js/main.16eddd05.chunk.js"
