@@ -16,6 +16,13 @@ class Info extends Component {
                 <p>{this.props.description}</p>
                 <hr/>
                 <p>{this.props.otro}</p>
+                <div className="sel">
+                    <div className="sel__item">uno</div>
+                    <div className="sel__item">uno</div>
+                    <div className="sel__item">uno</div>
+                    <div className="sel__item">uno</div>                    
+                </div>
+                <br/>
             </div>
         )
     }

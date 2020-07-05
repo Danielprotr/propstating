@@ -19,13 +19,15 @@ export class Grid extends Component {
                             otro="quien dijo yo"
                             />                                 
                     </div>
+                    <br/>
                     <div className="Grid__item">
                         <Info 
                             texto="DOS"
                             description="Descrip 2"
                             otro="quien dijo yo"
                             />                                 
-                    </div>               
+                    </div>   
+                    <br/>            
                     <div className="Grid__item">
                         <Info 
                             texto="TRES"

@@ -1,5 +1,26 @@
 
 .info_container{
-    background: orange;
+    background: rgb(192, 192, 192);
     text-align: center;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.sel{
+    background: brown;
+    overflow: scroll;
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+}
+
+.sel__item{
+    
+    width: 150px;
+    height: 100px;
+    background: chocolate;
+    margin: 3px;
 }
