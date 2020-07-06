@@ -6,6 +6,7 @@ import './styles/Grid.css';
 
 import Nav from '../components/Nav';
 
+import Selector from './Selector'
 
 export class Grid extends Component {
     render() {
@@ -17,7 +18,8 @@ export class Grid extends Component {
                             texto="Information"
                             description="Card 1"
                             otro="quien dijo yo"
-                            />                                 
+                            /> 
+                         <Selector />                               
                     </div>
                     <br/>
                     <div className="Grid__item">

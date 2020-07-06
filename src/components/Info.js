@@ -6,6 +6,7 @@ import React, { Component } from 'react';
 
 import './styles/Info.css';
 
+
 class Info extends Component {
     render(){
         return (
@@ -17,13 +18,8 @@ class Info extends Component {
                     <p>{this.props.description}</p>
                     <hr/>
                     <p>{this.props.otro}</p>
-                </div>
-                <div className="sel">
-                    <div className="sel__item">uno</div>
-                    <div className="sel__item">dos</div>
-                    <div className="sel__item">tres</div>
-                    <div className="sel__item">cuatro</div>                    
-                </div>
+                </div>                
+                
                 <div className="input">
                     <label htmlFor="">input</label>
                     <input type="text"/>

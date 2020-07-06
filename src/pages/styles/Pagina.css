@@ -12,6 +12,16 @@
     box-shadow: 0px -10px 10px 5px #000000;
     /* margin: 50px; */
 
+    z-index: 10;
+
+}
+
+.Page__Selector{
+    margin: auto;
+    /* background-color: orangered; */
+    /* margin-right: 10px;     */
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
 }
 
 .Page__layout-center{
@@ -26,6 +36,7 @@
 .Pagina__Container{
     display: grid;
     grid-template-columns: 1fr;
+    /* overflow-x: auto; */
 }
 
 @media (min-width: 400px){
@@ -39,5 +50,11 @@
     .Page__layout-center{
         max-width: 600px;
     }
+
+    .Page__Selector{
+        max-width: 600px;
+    }
+
+
 }
 
