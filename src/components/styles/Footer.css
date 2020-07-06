@@ -1,0 +1,13 @@
+
+.footer__container{
+    /* background-color: blueviolet; */
+    height: 50px;
+    margin: auto;
+    
+    align-items: center;
+}
+
+.footer__icon{
+    font-size: 30px;
+    padding: 10px;
+}

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import Grid from '../components/Grid'
 import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 import Sidenav from '../components/Sidenav'
 import Search from '../components/Search'
 import Selector from '../components/Selector'
@@ -38,6 +39,10 @@ export class Pagina extends Component {
                             <Sidenav /> 
                         </div>
                     </div>
+                </div>
+
+                <div className="Page__Footer">
+                        <Footer />
                 </div>
                 
             </div>             
