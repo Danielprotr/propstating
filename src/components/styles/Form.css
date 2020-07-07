@@ -1,0 +1,32 @@
+
+.form__container{    
+    /* margin: auto; */
+}
+
+.form__group{
+    /* width: 100%; */
+    /* background: orange; */
+    
+    margin-bottom: 15px;
+}
+
+.form-control{ 
+    margin-bottom: 15px;
+    width: 100%;
+    height: 20px;
+    
+    border: 1px solid #c2c2c2;
+    font-size: 20px;
+}
+
+.form__btn{
+    margin-bottom: 15px;
+    width: 100px;
+    /* height: 30px; */
+
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    background: yellowgreen;
+    color: white;
+    padding: 10px;
+}

@@ -18,12 +18,8 @@ class Info extends Component {
                     <p>{this.props.description}</p>
                     <hr/>
                     <p>{this.props.otro}</p>
-                </div>                
+                </div> 
                 
-                <div className="input">
-                    <label htmlFor="">input</label>
-                    <input type="text"/>
-                </div>
             </div>
         )
     }

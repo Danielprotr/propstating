@@ -7,6 +7,7 @@ import Sidenav from '../components/Sidenav'
 import Search from '../components/Search'
 import Selector from '../components/Selector'
 
+
 import './styles/Pagina.css';
 
 export class Pagina extends Component {
@@ -23,9 +24,9 @@ export class Pagina extends Component {
                     <Search />
                 </div>
 
-                <div className="Page__Selector">
+                {/* <div className="Page__Selector">
                     <Selector />
-                </div>                
+                </div>  */}               
                 
                 <br/>
 
@@ -35,6 +36,8 @@ export class Pagina extends Component {
                         <div className="Pagina__item">
                             <Grid />
                         </div>
+                        
+
                         <div className="Pagina__item">
                             <Sidenav /> 
                         </div>

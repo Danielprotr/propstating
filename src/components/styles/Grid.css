@@ -24,3 +24,8 @@
     overflow-x: auto;
 }
 
+.Grid__form{    
+    justify-self: center; 
+    align-self: center;  
+}
+

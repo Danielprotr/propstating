@@ -7,6 +7,7 @@ import './styles/Grid.css';
 import Nav from '../components/Nav';
 
 import Selector from './Selector'
+import Form from './Form'
 
 export class Grid extends Component {
     render() {
@@ -19,8 +20,14 @@ export class Grid extends Component {
                             description="Card 1"
                             otro="quien dijo yo"
                             /> 
-                         <Selector />                               
+                         {/* <Selector /> */}                               
                     </div>
+                    <br/>
+
+                    <div className="Grid__form">
+                            <Form />
+                    </div>
+
                     <br/>
                     <div className="Grid__item">
                         <Info 
