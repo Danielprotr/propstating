@@ -5,12 +5,24 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import Sidenav from '../components/Sidenav'
 import Search from '../components/Search'
-import Selector from '../components/Selector'
-
+/*import Selector from '../components/Selector'  */
+import Event from '../components/Event'
 
 import './styles/Pagina.css';
 
 export class Pagina extends Component {
+
+    state = { form:{} };
+
+    handleChange = e =>{
+        this.setState({
+            form: {
+                [e.target.name]: e.target.value,
+            }
+        });
+    }
+
+
     render() {
         return (        
             <div className="Page_layout">
@@ -22,6 +34,7 @@ export class Pagina extends Component {
 
                 <div className="Page__Search">
                     <Search />
+                    
                 </div>
 
                 {/* <div className="Page__Selector">
@@ -34,7 +47,11 @@ export class Pagina extends Component {
                     <div className="Pagina__Container">                         
 
                         <div className="Pagina__item">
+                            <Event />
+                            <br/>
+
                             <Grid />
+                            
                         </div>
                         
 

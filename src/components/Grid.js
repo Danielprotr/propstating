@@ -3,13 +3,22 @@ import React, { Component } from 'react'
 import Info from '../components/Info';
 import './styles/Grid.css';
 
-
-import Nav from '../components/Nav';
-
-import Selector from './Selector'
 import Form from './Form'
 
 export class Grid extends Component {
+
+    state = { form:{} };
+
+    handleChange = e =>{
+
+        this.setState({
+            form: {
+                ... this.state.form,
+                [e.target.name]: e.target.value,
+            }
+        });
+    }
+
     render() {
         return (
             <div className="Grid__page-container">                
@@ -20,12 +29,15 @@ export class Grid extends Component {
                             description="Card 1"
                             otro="quien dijo yo"
                             /> 
-                         {/* <Selector /> */}                               
+                                                   
                     </div>
                     <br/>
 
                     <div className="Grid__form">
-                            <Form />
+                            <Form 
+                                onChange={this.handleChange} 
+                                formValues={this.state.form}
+                            />
                     </div>
 
                     <br/>
