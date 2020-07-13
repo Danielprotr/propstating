@@ -1,0 +1,13 @@
+
+
+.conj_container{
+    margin: auto;
+    background: lightcoral;
+}
+
+@media (min-width:600px){
+    .conj_container{
+        background: lightgreen;
+        width: 600px;
+    }
+}
